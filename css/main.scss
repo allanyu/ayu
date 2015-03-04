@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+
+/*GLOBAL*/
+
+body {
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+.wrapper {
+	display: block;
+}
+
+a:link {
+    text-decoration: none;
+		color: #ffffff
+}
+
+
+
+
+@import
+	"reset",
+	"header"
+	;

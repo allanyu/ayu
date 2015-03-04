@@ -1,0 +1,120 @@
+// HEADER CSS
+header{
+	display: block;
+}
+
+// nav css starts here
+.nav {
+	background-color: #000000;
+	height: 82px;
+  width:100%;
+  text-align:center;
+	color: #ffffff;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 1.3px;
+}
+
+#left {
+  float:left;
+	margin: 35px 0px 0px 120px;
+  height: 20px;
+}
+
+#center {
+  display: inline-block;
+  margin: 30px auto 0px;
+  height: 20px;
+	font-size: 24px;
+}
+
+#right {
+  float:right;
+	margin: 35px 120px 0px 0px;
+  height: 20px;
+}
+
+.nav #center ul li {
+	display: inline;
+	padding: 0 15px;
+}
+
+
+// ciricle hover
+.numberCircle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 24px;
+    padding: 8px;
+    border: 2px solid #fff;
+    position: relative;
+		float:left;
+		margin: 0 8px;
+
+}
+
+.numberCircle .height_fix {
+    margin-top: 100%;
+}
+
+.numberCircle .content {
+    position: absolute;
+    left: 1px;
+    top: 49%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: -10px; /* Note, this must be half the font size */
+}
+
+#centeralign {
+	background: #0000ff;
+	width: 280px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+
+// intro css starts here
+.intro {
+  width: 600px;
+	height: 300px;
+  margin: 0 auto;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 0.3px;
+	line-height: 26px;
+}
+
+
+#leftcolumn{
+  float: left;
+	margin-top: 80px;
+	margin-left: 180px;
+}
+
+#rightcolumn {
+  float: right;
+	margin-top: 80px;
+	margin-right: 90px;
+	}
+
+.intro #leftcolumn li{
+	text-decoration: line-through;
+}
+
+.intro #leftcolumn li.nodecor{
+	font-style: italic;
+	text-decoration: none;
+}
+
+.intro #rightcolumn li.email{
+	text-decoration: underline;
+}
+hr {
+	margin: 40px auto 0;
+	max-width: 1160px;
+}
