@@ -1,0 +1,66 @@
+// GOOGLEX CSS
+// some css prefix are in main.css as they are global styles
+
+.projectWrapper.googlex {
+  margin: 0px auto;
+  max-width: 1160px;
+  position: relative;
+}
+
+.projectTitle.googlex {
+  max-width: 400px;
+  padding-left: 265px;
+  padding-top: 120px;
+  z-index: -10;
+}
+
+.year.googlex{
+  z-index: 10;
+  color: #57ff96;
+  position: relative;
+  top: -20px;
+  left: 300px;
+  width: 400px;
+}
+
+.jobPosition.googlex{
+  width: 150px;
+  top: -125px;
+  left: 516px;
+}
+
+.info.googlex{
+  width: 400px;
+  border: 1px solid #000;
+  padding: 32px;
+  position: relative;
+  left: 620px;
+  top: -170px;
+
+}
+
+img#googlex{
+  max-width: 100%;
+  height: auto;
+  margin-top: -80px;
+  z-index: 9;
+}
+
+img#googlelogo{
+  z-index: -40;
+  top: 140px;
+  right: -550px;
+  position: absolute;
+}
+
+// #googlebg{
+// background-image: url("/images/googlex/googlelogo.png");
+// width:100%;
+// height: 100%;
+// background-repeat: no-repeat;
+// top: 295px;
+// right: -850px;
+// overflow-x: hidden;
+// z-index: -40;
+// position: absolute;
+// }

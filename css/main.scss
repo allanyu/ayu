@@ -15,6 +15,7 @@ body {
 
 .wrapper {
 	display: block;
+	overflow-x: hidden;
 }
 
 a:link {
@@ -22,10 +23,39 @@ a:link {
 		color: #ffffff
 }
 
+.project{
+  display: block;
+}
 
+.projectTitle {
+  font-family: helvetica;
+  font-size: 60px;
+}
 
+.year {
+  font-family: 'Times';
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.jobPosition {
+  font-family: helvetica;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #999;
+  position: relative;
+}
+
+.info {
+  font-family: helvetica;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	line-height: 26px;
+	background: #fff;
+}
 
 @import
 	"reset",
-	"header"
+	"header",
+	"googlex"
 	;
