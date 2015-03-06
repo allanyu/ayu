@@ -10,23 +10,23 @@
 .projectTitle.googlex {
   max-width: 400px;
   padding-left: 265px;
-  padding-top: 120px;
   z-index: -10;
 }
 
 .year.googlex{
-  z-index: 10;
   color: #57ff96;
   position: relative;
   top: -20px;
   left: 300px;
   width: 400px;
+  z-index: 10;
 }
 
 .jobPosition.googlex{
   width: 150px;
   top: -125px;
   left: 516px;
+  z-index: -20;
 }
 
 .info.googlex{
@@ -36,6 +36,7 @@
   position: relative;
   left: 620px;
   top: -170px;
+  z-index: -30;
 
 }
 
@@ -43,24 +44,13 @@ img#googlex{
   max-width: 100%;
   height: auto;
   margin-top: -80px;
+  padding-bottom: 110px;
   z-index: 9;
 }
 
 img#googlelogo{
-  z-index: -40;
-  top: 140px;
+  top: 30px;
   right: -550px;
   position: absolute;
+  z-index: -40;
 }
-
-// #googlebg{
-// background-image: url("/images/googlex/googlelogo.png");
-// width:100%;
-// height: 100%;
-// background-repeat: no-repeat;
-// top: 295px;
-// right: -850px;
-// overflow-x: hidden;
-// z-index: -40;
-// position: absolute;
-// }

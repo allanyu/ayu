@@ -9,7 +9,7 @@
 /*GLOBAL*/
 
 body {
-	font-family: helvetica;
+	font-family: "Helvetica Neue";
 	font-weight: lighter;
 }
 
@@ -28,8 +28,9 @@ a:link {
 }
 
 .projectTitle {
-  font-family: helvetica;
+  font-family: "Helvetica Neue";
   font-size: 60px;
+	letter-spacing: 2.5px;
 }
 
 .year {
@@ -39,23 +40,29 @@ a:link {
 }
 
 .jobPosition {
-  font-family: helvetica;
+  font-family: "Helvetica Neue";
   font-size: 14px;
-  font-weight: lighter;
-  color: #999;
+  color: #bbb;
   position: relative;
+	letter-spacing: 1.1px;
 }
 
 .info {
-  font-family: helvetica;
+  font-family: "Helvetica Neue";
 	font-size: 16px;
 	letter-spacing: 0.3px;
 	line-height: 26px;
 	background: #fff;
 }
 
+hr {
+	margin: 0px auto 140px;
+	max-width: 1160px;
+}
+
 @import
 	"reset",
 	"header",
-	"googlex"
+	"googlex",
+	"nypd"
 	;
