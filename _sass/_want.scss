@@ -1,0 +1,103 @@
+.projectIntro.want{
+  padding-top: 20px;
+}
+
+.introLeft.want{
+  width: 500px;
+  position: relative;
+  left: 23%;
+  z-index: -10;
+}
+
+h2.want{
+  position: absolute;
+  color: #9968f5;
+  top: 103px;
+  left: 37px;
+}
+
+h3.want{
+  position: absolute;
+  top: -21px;
+  left: 142px;
+}
+
+.introRight.want{
+  width: 500px;
+  position: relative;
+  left: 45%;
+  top: -110px;
+  z-index: -20;
+}
+
+ p.want{
+  width: 390px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.want{
+  margin: 60px auto;
+  max-width: 100%;
+  position: relative;
+}
+
+img#want1{
+  max-width: 100%;
+  left: -11%;
+  position: relative;
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+    mix-blend-mode: multiply;
+}
+
+img#want2{
+  max-width: 100%;
+  top: -130px;
+  right: -21%;
+  position: relative;
+    -webkit-transform: rotate(13deg); /* Chrome, Safari, Opera */
+    transform: rotate(13deg);
+    mix-blend-mode: multiply;
+}
+
+img#want3{
+  max-width: 100%;
+  top: -240px;
+  left: -11%;
+  position: relative;
+    -webkit-transform: rotate(-27deg); /* Chrome, Safari, Opera */
+    transform: rotate(-27deg);
+    mix-blend-mode: multiply;
+}
+
+img#want4{
+  max-width: 100%;
+  top: -410px;
+  right: -24%;
+  position: relative;
+    -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+    transform: rotate(-6deg);
+    mix-blend-mode: multiply;
+}
+
+img#want5{
+  max-width: 100%;
+  top: -500px;
+  left: 3%;
+  position: relative;
+    -webkit-transform: rotate(16deg); /* Chrome, Safari, Opera */
+    transform: rotate(16deg);
+    mix-blend-mode: multiply;
+}
+
+img#want6{
+  max-width: 100%;
+  top: -540px;
+  right: -5%;
+  position: relative;
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
+    mix-blend-mode: multiply;
+  margin-bottom: -490px;
+}
