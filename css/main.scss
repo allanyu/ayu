@@ -9,7 +9,8 @@
 	"header",
 	"googlex",
 	"nypd",
-	"tmag"
+	"tmag",
+	"svpply"
 ;
 
 // Global CSS
@@ -21,10 +22,6 @@ body{
 	overflow-x: hidden;
 }
 
-hr{
-	margin: 0px auto 120px;
-	max-width: 1160px;
-}
 
 .project{
   display: block;
@@ -34,6 +31,18 @@ hr{
   margin: 0px auto;
   max-width: 1160px;
   position: relative;
+}
+
+
+// Misc
+.globalImgWrapper{
+  max-width: 100%;
+  position: relative;
+}
+
+hr{
+	margin: 0px auto 120px;
+	max-width: 1160px;
 }
 
 
