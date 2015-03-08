@@ -44,18 +44,18 @@ h3.projfla{
 
 .grid{
   margin: -5px auto;
-  max-width: 100%;
+  max-width: 1200px;
   display: table;
   vertical-align: middle;
   text-align: center;
-}
-
-.row2{
-  margin-bottom: 110px;
 }
 
 img#projgrid{
   max-width: 100%;
   align-content: center;
   padding: 7px;
+}
+
+.projempty{
+  margin-bottom: 110px;
 }
