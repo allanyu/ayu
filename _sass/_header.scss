@@ -4,15 +4,15 @@ header {
 }
 
 // nav css starts here
-.nav {
+nav {
 	background-color: #000000;
 	height: 82px;
-  width:100%;
+  width: 100%;
   text-align:center;
 	color: #ffffff;
 	font-family: helvetica;
+	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
-	font-weight: lighter;
 	letter-spacing: 1.3px;
 }
 
@@ -35,71 +35,36 @@ header {
   height: 20px;
 }
 
-.nav #center ul li {
+nav #center ul li {
 	display: inline;
 	padding: 0 15px;
 }
 
-
-// ciricle hover
-.numberCircle {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    width: 24px;
-    padding: 8px;
-    border: 2px solid #fff;
-    position: relative;
-		float:left;
-		margin: 0 8px;
-
-}
-
-.numberCircle .height_fix {
-    margin-top: 100%;
-}
-
-.numberCircle .content {
-    position: absolute;
-    left: 1px;
-    top: 49%;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    margin-top: -10px; /* Note, this must be half the font size */
-}
-
-#centeralign {
-	background: #0000ff;
-	width: 280px;
-	height: 50px;
-	margin: 0 auto;
-}
-
-
 // intro css starts here
 .intro {
   width: 600px;
-	height: 300px;
+  height: 300px;
   margin: 0 auto;
 	font-family: helvetica;
+	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
 	letter-spacing: 0.3px;
 	line-height: 26px;
 	padding-bottom: 30px;
 }
 
-
 #leftcolumn{
   float: left;
 	margin-top: 80px;
 	margin-left: 180px;
+  display: inline-block;
 }
 
 #rightcolumn {
   float: right;
 	margin-top: 80px;
 	margin-right: 90px;
+  display: inline-block;
 	}
 
 .intro #leftcolumn li{

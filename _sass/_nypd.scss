@@ -1,82 +1,78 @@
-// NYPD CSS
-// some css prefix are in main.css as they are global styles
-
-.projectWrapper.nypd {
-  margin: 0px auto;
-  max-width: 1160px;
-  position: relative;
+.projectIntro.nypd{
+  padding-top: 20px;
 }
 
-.projectTitle.nypd {
-  max-width: 600px;
-  padding-left: 225px;
+.introLeft.nypd{
+  width: 550px;
+  position: relative;
+  left: 19%;
   z-index: -110;
 }
 
-.year.nypd{
+h2.nypd{
+  position: absolute;
   color: #0000ff;
-  position: relative;
-  top: -22px;
-  left: 280px;
-  width: 400px;
-  z-index: 110;
+  top: 99px;
+  left: 32px;
 }
 
-.jobPosition.nypd{
-  width: 150px;
-  top: -180px;
-  left: 490px;
+h3.nypd{
+  position: absolute;
+  top: -16px;
+  left: 266px;
+}
+
+.introRight.nypd{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: -54px;
   z-index: -120;
 }
 
-.info.nypd{
-  width: 400px;
+ p.nypd{
+  width: 390px;
   border: 1px solid #000;
   padding: 32px;
+}
+
+.projectBody.nypd{
+  margin: -20px auto 120px;
+  max-width: 100%;
   position: relative;
-  left: 600px;
-  top: -150px;
+}
+
+.numberWrapper{
+  max-width: 1160px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.members{
+  width: 700px;
+  position: relative;
+  right: 14%;
   z-index: -130;
 }
 
-.nypdMembers{
-  position: relative;
-  left: -200px;
-  margin-top: -80px;
-  padding-left: 100px;
+.members .name{
+  padding-left: 200px;
 }
-
-.nypdJobs{
-  position: relative;
-  left: 500px;
-  margin-top: -60px;
-  padding-left: 162px;
-}
-
 
 .num{
   font-family: "Helvetica Neue";
   font-weight: 600;
   font-size: 320px;
+  -webkit-font-smoothing: antialiased;
   color: #0000ff;
 }
 
-.nypdattrib{
+.name{
   display: inline-block;
   font-family: "Helvetica Neue";
   font-weight: 600;
   font-size: 60px;
   color: #0000ff;
-}
-
-.nypdattrib.members{
-  letter-spacing: 2.5px;
-  padding-left: 100px;
-}
-
-.nypdattrib.jobs{
-  letter-spacing: 2.5px;
-  padding-left: 300px;
 }
 
 .counting{
@@ -88,30 +84,90 @@
   padding-left: 10px;
 }
 
-.diagonal{
-  width: 400px;
-  height: 720px;
-  position: absolute;
-  left: 360px;
-  top: 310px;
-}
-
-img#nypdMemScrn{
-  margin-top: 80px;
-  margin-left: -50px;
-  z-index: 109;
-}
-
-img#nypdJobScrn{
-  position: absolute;
-  top: 1246px;
-  left: 341px;
-  z-index: 111;
-}
-
-img#googlelogo{
-  top: 30px;
-  right: -550px;
-  position: absolute;
+.jobs{
+  width: 700px;
+  position: relative;
+  left: 61%;
+  top: -90px;
   z-index: -140;
+}
+
+.jobs .name{
+  padding-left: 300px;
+}
+
+.diagonal{
+  width: 420px;
+  height: 766px;
+  position: absolute;
+  left: 30%;
+  top: 40px;
+}
+
+.imgWrapper{
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+img#jobsScrn{
+  max-width: 100%;
+  position: absolute;
+  z-index: -150;
+  right: -212px;
+  display: block;
+  top: 977px
+}
+
+img#memberScrn{
+  max-width: 100%;
+  position: relative;
+  z-index: -160;
+  left: 25px;
+  padding-bottom: 240px;
+}
+
+.postings{
+  margin-top: 260px;
+  margin-bottom: 100px;
+  height: 360px;
+  max-width: 1160px;
+  margin: 0px auto;
+}
+
+.postingTitle{
+  font-family: "Helvetica Neue";
+  font-size: 32px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  color: #0000ff;
+  display: inline-block;
+  padding-top: 160px;
+  padding-left: 90px;
+  letter-spacing: 1px;
+  }
+
+.companies{
+  display: inline-block;
+  float: right;
+  padding-right: 135px;
+  padding-top: 40px;
+}
+
+.companies ul{
+  font-family: "Times";
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 1.3px;
+}
+.companies .leftside{
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  padding-right: 60px;
+}
+
+.companies .rightside{
+  display: inline-block;
+  padding-left: 60px;
 }

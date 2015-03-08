@@ -3,14 +3,16 @@
 ---
 @charset "utf-8";
 
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"reset",
+	"header",
+	"googlex",
+	"nypd"
+;
 
-
-
-/*GLOBAL*/
-
-body {
-	font-family: "Helvetica Neue";
-	font-weight: lighter;
+// Global CSS
+body{
 }
 
 .wrapper {
@@ -18,51 +20,52 @@ body {
 	overflow-x: hidden;
 }
 
-a:link {
-    text-decoration: none;
-		color: #ffffff
+hr{
+	margin: 0px auto 120px;
+	max-width: 1160px;
 }
 
 .project{
   display: block;
 }
 
-.projectTitle {
-  font-family: "Helvetica Neue";
-  font-size: 60px;
-	letter-spacing: 2.5px;
+.projectIntro{
+  margin: 0px auto;
+  max-width: 1160px;
+  position: relative;
 }
 
-.year {
+
+// Typography
+h1{
+  font-family: "Helvetica Neue";
+	-webkit-font-smoothing: antialiased;
+  font-size: 60px;
+	letter-spacing: 2.6px;
+}
+
+h2{
   font-family: 'Times';
+	-webkit-font-smoothing: antialiased;
   font-size: 40px;
   font-weight: 100;
+	letter-spacing: 2px;
 }
 
-.jobPosition {
+h3{
   font-family: "Helvetica Neue";
+	-webkit-font-smoothing: antialiased;
   font-size: 14px;
   color: #bbb;
   position: relative;
 	letter-spacing: 1.1px;
 }
 
-.info {
+p{
   font-family: "Helvetica Neue";
+	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
 	letter-spacing: 0.3px;
 	line-height: 26px;
 	background: #fff;
 }
-
-hr {
-	margin: 0px auto 140px;
-	max-width: 1160px;
-}
-
-@import
-	"reset",
-	"header",
-	"googlex",
-	"nypd"
-	;

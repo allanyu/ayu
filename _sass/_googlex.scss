@@ -1,56 +1,63 @@
-// GOOGLEX CSS
-// some css prefix are in main.css as they are global styles
+.projectIntro.googlex{
+  padding-top: 20px;
+}
 
-.projectWrapper.googlex {
+.introLeft.googlex{
+  width: 500px;
+  position: relative;
+  left: 19%;
+  z-index: -10;
+}
+
+h2.googlex{
+  position: absolute;
+  color: #57ff96;
+  top: 43px;
+  left: 37px;
+}
+
+h3.googlex{
+  position: absolute;
+  top: -16px;
+  left: 266px;
+}
+
+.introRight.googlex{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: -110px;
+  z-index: -20;
+}
+
+ p.googlex{
+  width: 390px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.googlex{
+  margin: -20px auto 120px;
+  max-width: 100%;
+  position: relative;
+}
+
+img#googlex{
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+#googleContainer{
   margin: 0px auto;
   max-width: 1160px;
   position: relative;
 }
 
-.projectTitle.googlex {
-  max-width: 400px;
-  padding-left: 265px;
-  z-index: -10;
-}
-
-.year.googlex{
-  color: #57ff96;
-  position: relative;
-  top: -20px;
-  left: 300px;
-  width: 400px;
-  z-index: 10;
-}
-
-.jobPosition.googlex{
-  width: 150px;
-  top: -125px;
-  left: 516px;
-  z-index: -20;
-}
-
-.info.googlex{
-  width: 400px;
-  border: 1px solid #000;
-  padding: 32px;
-  position: relative;
-  left: 620px;
-  top: -170px;
-  z-index: -30;
-
-}
-
-img#googlex{
-  max-width: 100%;
-  height: auto;
-  margin-top: -80px;
-  padding-bottom: 110px;
-  z-index: 9;
-}
-
 img#googlelogo{
-  top: 30px;
-  right: -550px;
+  bottom: 430px;
+  left: 74%;
   position: absolute;
   z-index: -40;
+  max-width: 100%;
 }
