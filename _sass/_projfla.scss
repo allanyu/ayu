@@ -1,0 +1,61 @@
+.projectIntro.projfla{
+  padding-top: 20px;
+}
+
+.introLeft.projfla{
+  width: 500px;
+  position: relative;
+  left: 19%;
+  z-index: -10;
+}
+
+h2.projfla{
+  position: absolute;
+  color: #61e7ff;
+  top: 43px;
+  left: 37px;
+}
+
+h3.projfla{
+  position: absolute;
+  top: -16px;
+  left: 266px;
+}
+
+.introRight.projfla{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: -110px;
+  z-index: -20;
+}
+
+ p.projfla{
+  width: 390px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.projfla{
+  margin: 0px auto 120px;
+  max-width: 100%;
+  position: relative;
+}
+
+.grid{
+  margin: -5px auto;
+  max-width: 100%;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.row2{
+  margin-bottom: 110px;
+}
+
+img#projgrid{
+  max-width: 100%;
+  align-content: center;
+  padding: 7px;
+}
