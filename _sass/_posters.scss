@@ -1,0 +1,53 @@
+.projectIntro.posters{
+  padding-top: 20px;
+}
+
+.introLeft.posters{
+  width: 500px;
+  position: relative;
+  left: 19%;
+  z-index: -10;
+}
+
+h2.posters{
+  position: absolute;
+  color: #ffa000;
+  top: 43px;
+  left: 37px;
+}
+
+h3.posters{
+  position: absolute;
+  top: -20px;
+  left: 266px;
+}
+
+.introRight.posters{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: -110px;
+  z-index: -20;
+}
+
+ p.posters{
+  width: 390px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.posters{
+  margin: 20px auto 120px;
+  max-width: 100%;
+  position: relative;
+}
+
+img#posters{
+  max-width: 100%;
+  display: block;
+  margin: 0px auto 120px;
+
+  -webkit-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
