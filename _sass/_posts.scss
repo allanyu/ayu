@@ -1,0 +1,21 @@
+.post h1{
+  text-align: center;
+  font-family: "Times";
+  font-size: 68px;
+  padding: 110px 0px 90px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.post{
+  width: 640px;
+  height: 500px;
+  margin: 0px auto 500px;;
+  display: block;
+  padding-bottom: 440px;
+}
+
+.post p{
+  line-height: 34px;
+  letter-spacing: 0.6px;
+  display: block;
+}
