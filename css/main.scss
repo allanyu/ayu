@@ -7,6 +7,7 @@
 @import
 	"reset",
 	"header",
+	"intro",
 	"googlex",
 	"nypd",
 	"tmag",
@@ -84,4 +85,8 @@ p{
 	letter-spacing: 0.3px;
 	line-height: 26px;
 	background: #fff;
+}
+
+ul.posts{
+	color: red;
 }
