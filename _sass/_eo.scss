@@ -1,0 +1,87 @@
+.projectIntro.eo{
+  padding-top: 20px;
+}
+
+.introLeft.eo{
+  width: 500px;
+  position: relative;
+  left: 22%;
+  z-index: -610;
+}
+
+h2.eo{
+  position: absolute;
+  color: #ff0000;
+  top: 101px;
+  left: 37px;
+}
+
+h3.eo{
+  position: absolute;
+  top: -20px;
+  left: 206px;
+}
+
+.introRight.eo{
+  width: 500px;
+  position: relative;
+  left: 47%;
+  top: -128px;
+  z-index: -620;
+}
+
+ p.eo{
+  width: 390px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.eo{
+  margin: -20px auto 120px;
+  max-width: 100%;
+  position: relative;
+}
+
+img#eo{
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 50px;
+}
+
+#eoContainer{
+  margin: 0px auto;
+  max-width: 1160px;
+  position: relative;
+}
+
+img#eologo{
+  bottom: 1760px;
+  left: 67%;
+  position: absolute;
+  z-index: -640;
+  max-width: 100%;
+}
+
+img#eoapp{
+  max-width: 100%;
+  display: block;
+  margin: 60px auto 0;
+  padding-left: 120px;
+}
+
+img#wmEletric{
+  bottom: 130px;
+  left: 71%;
+  position: absolute;
+  z-index: -650;
+  max-width: 100%;
+}
+
+img#wmObject{
+  bottom: 120px;
+  right: 75%;
+  position: absolute;
+  z-index: -650;
+  max-width: 100%;
+}
