@@ -37,15 +37,18 @@ h3.want{
 }
 
 .projectBody.want{
-  margin: 60px auto;
+  margin: 80px auto -560px;
   max-width: 100%;
   position: relative;
 }
 
+
 img#want1{
   max-width: 100%;
-  left: -11%;
   position: relative;
+  z-index: 500;
+  display: block;
+  left: -8%;
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
     transform: rotate(-10deg);
     mix-blend-mode: multiply;
@@ -53,9 +56,11 @@ img#want1{
 
 img#want2{
   max-width: 100%;
-  top: -130px;
-  right: -21%;
   position: relative;
+  z-index: 510;
+  display: block;
+  top: -110px;
+  left:30%;
     -webkit-transform: rotate(13deg); /* Chrome, Safari, Opera */
     transform: rotate(13deg);
     mix-blend-mode: multiply;
@@ -63,7 +68,8 @@ img#want2{
 
 img#want3{
   max-width: 100%;
-  top: -240px;
+  top: -210px;
+  z-index: 530;
   left: -11%;
   position: relative;
     -webkit-transform: rotate(-27deg); /* Chrome, Safari, Opera */
@@ -73,8 +79,9 @@ img#want3{
 
 img#want4{
   max-width: 100%;
-  top: -410px;
-  right: -24%;
+  top: -470px;
+  z-index: 540;
+  right: -28%;
   position: relative;
     -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
     transform: rotate(-6deg);
@@ -83,21 +90,22 @@ img#want4{
 
 img#want5{
   max-width: 100%;
-  top: -500px;
-  left: 3%;
+  top: -583px;
+  z-index: 550;
+  left: 7%;
   position: relative;
-    -webkit-transform: rotate(16deg); /* Chrome, Safari, Opera */
-    transform: rotate(16deg);
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
     mix-blend-mode: multiply;
 }
 
 img#want6{
   max-width: 100%;
-  top: -540px;
-  right: -5%;
+  top: -650px;
+  z-index: 830;
+  right: -25%;
   position: relative;
-    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
     mix-blend-mode: multiply;
-  margin-bottom: -490px;
 }
