@@ -26,6 +26,10 @@
 body{
 }
 
+header {
+	display: block;
+}
+
 .wrapper {
 	display: block;
 	overflow-x: hidden;
@@ -56,6 +60,7 @@ hr{
 
 
 // Typography
+
 h1{
   font-family: "Helvetica Neue";
 	-webkit-font-smoothing: antialiased;
@@ -91,4 +96,8 @@ p{
 
 ul.posts{
 	color: red;
+}
+
+strong, b {
+  font-weight: bold;
 }

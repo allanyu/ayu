@@ -8,14 +8,17 @@
 
 .post{
   width: 640px;
-  height: 500px;
-  margin: 0px auto 500px;;
+  margin: 0px auto ;
   display: block;
-  padding-bottom: 440px;
 }
 
 .post p{
   line-height: 34px;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   display: block;
+}
+
+.post img{
+  display: block;
+  margin: 0px auto;
 }
