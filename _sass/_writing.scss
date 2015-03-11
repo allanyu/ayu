@@ -1,4 +1,11 @@
-.writing h1{
+.writing{
+  width: 540px;
+  margin: 0px auto 300px;;
+  display: block;
+  position: relative;
+}
+
+.writing h4{
   text-align: center;
   font-family: "Times";
   font-size: 68px;
@@ -6,18 +13,44 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.writing{
-  width: 640px;
-  margin: 0px auto 500px;;
-  display: block;
-}
-
 .writing ul{
-  line-height: 34px;
+  line-height: 46px;
   letter-spacing: 0.6px;
   display: block;
   color: red;
   font-family: "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
+}
+
+.writing a:hover{
+  border-bottom: 1px solid black;
+}
+
+img#pencil1{
+  position: absolute;
+  top: 100px;
+  left: 98px;
+  z-index: -2;
+}
+
+img#pencil2{
+  position: absolute;
+  top: 40px;
+  left: -310px;
+  z-index: -3;
+}
+
+img#pencil3{
+  position: absolute;
+  top: 772px;
+  left: 150px;
+  z-index: -3;
+}
+
+img#pencil4{
+  position: absolute;
+  top: 764px;
+  left: 328px;
+  z-index: -3;
 }
