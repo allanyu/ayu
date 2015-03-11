@@ -1,5 +1,5 @@
 .writing{
-  width: 540px;
+  max-width: 540px;
   margin: 0px auto 300px;;
   display: block;
   position: relative;
@@ -41,16 +41,24 @@ img#pencil2{
   z-index: -3;
 }
 
-img#pencil3{
-  position: absolute;
-  top: 772px;
-  left: 150px;
-  z-index: -3;
+.pencilWrapper{
+  top:763px;
+  z-index:3;
+  height:78px;
+  width:288px;
+  margin:0px auto;
+  position:absolute;
+  left:50px;
+  right:0;
 }
 
-img#pencil4{
-  position: absolute;
-  top: 764px;
-  left: 328px;
-  z-index: -3;
+img#pencil3{
+  padding-right: 70px;
 }
+//
+// img#pencil4{
+//   position: absolute;
+//   top: 764px;
+//   left: 328px;
+//   z-index: -3;
+// }

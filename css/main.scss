@@ -159,3 +159,15 @@ h3 a:visited{
 h3 a:hover{
 	color: #7f7f7f;
 }
+
+
+
+//Navigation Link Hovers
+
+nav #center li.index a:hover, nav #center li.writing a:hover, nav #center li.tumblr a:hover{
+	border: 2px solid rgba(255, 255, 255, 1);
+}
+
+nav #center li.index a.current, nav #center li.writing a.current{
+	border: 2px solid rgba(255, 255, 255, 1);
+}

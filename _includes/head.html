@@ -10,4 +10,15 @@
   <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" /> -->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <script>
+  $(function(){
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+      }
+    });
+  });
+  </script>
+
 </head>

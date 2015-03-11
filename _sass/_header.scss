@@ -18,7 +18,7 @@ nav {
 
 #center {
   display: inline-block;
-  margin: 30px auto 0px;
+  margin: 18px auto 0px;
   height: 20px;
 	font-size: 24px;
 }
@@ -31,5 +31,17 @@ nav {
 
 nav #center ul li {
 	display: inline;
-	padding: 0 15px;
+}
+
+#center li.index a, #center li.writing a, #center li.tumblr a{
+	margin: 0px 10px;
+	float: left;
+	width: 42px;
+	height: 42px;
+	border-radius: 50px;
+	border: 2px solid rgba(255, 255, 255, 0);
+	font-size: 24px;
+	color:#fff;
+	line-height: 45px;
+	text-align: center;
 }
