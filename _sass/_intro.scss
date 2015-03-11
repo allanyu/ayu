@@ -2,25 +2,25 @@
   width: 600px;
   height: 300px;
   margin: 0 auto;
-	font-family: helvetica;
+  font-family: "Helvetica Neue";
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
-	letter-spacing: 0.3px;
+	letter-spacing: 1px;
 	line-height: 26px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 
 #leftcolumn{
   float: left;
 	margin-top: 80px;
-	margin-left: 180px;
+	margin-left: 160px;
   display: inline-block;
 }
 
 #rightcolumn {
   float: right;
 	margin-top: 80px;
-	margin-right: 90px;
+	margin-right: 70px;
   display: inline-block;
 	}
 

@@ -31,7 +31,7 @@ h3.tmag{
 }
 
  p.tmag{
-  width: 390px;
+  width: 450px;
   border: 1px solid #000;
   padding: 32px;
 }
@@ -60,7 +60,7 @@ img#tmagBw{
 
 p.option1{
   position: relative;
-  max-width: 420px;
+  max-width: 462px;
   border: 1px solid #000;
   padding: 24px;
   z-index: 250;
@@ -71,16 +71,12 @@ p.option1{
 p.option2{
   position: relative;
   z-index: 260;
-  max-width: 420px;
+  max-width: 462px;
   border: 1px solid #000;
   padding: 24px;
   top: 140px;
   left: 22.3%;
   // margin: 171px 0 0 290px;
-}
-
-.bold{
-  font-weight: bold;
 }
 
 img#tmagVoid{
@@ -93,7 +89,7 @@ img#tmagVoid{
 p.web{
   position: relative;
   z-index: 270;
-  width: 122px;
+  width: 130px;
   border: 1px solid #000;
   padding: 24px;
   top: 85px;

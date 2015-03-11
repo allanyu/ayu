@@ -1,13 +1,14 @@
 .projectIntro.svpply{
   padding-top: 20px;
+  padding-bottom: 70px;
 }
 
 .introLeft.svpply{
-  width: 500px;
+  width: 270px;
   position: relative;
   top: 40px;
   left: 22%;
-  z-index: -10;
+  z-index: 320;
 }
 
 h2.svpply{
@@ -26,13 +27,13 @@ h3.svpply{
 .introRight.svpply{
   width: 500px;
   position: relative;
-  left: 50%;
+  left: 44%;
   top: -90px;
-  z-index: -20;
+  z-index: 310;
 }
 
  p.svpply{
-  width: 440px;
+  width: 470px;
   border: 1px solid #000;
   padding: 32px;
 }

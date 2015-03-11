@@ -3,6 +3,25 @@
 ---
 @charset "utf-8";
 
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #000;
+}
+
+a:hover{
+	color: #7f7f7f;
+}
+
+a:active {
+	color: black;
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"reset",
@@ -47,6 +66,7 @@ header {
 }
 
 
+
 // Misc
 .globalImgWrapper{
   max-width: 100%;
@@ -89,7 +109,7 @@ p{
   font-family: "Helvetica Neue";
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
-	letter-spacing: 0.3px;
+	letter-spacing: 1px;
 	line-height: 26px;
 	background: #fff;
 }
@@ -98,6 +118,44 @@ ul.posts{
 	color: red;
 }
 
-strong, b {
+// Markdown Override
+
+strong, b, .bold{
   font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+
+h1:hover{
+  letter-spacing: 5px;
+  color: #000;
+}
+
+p a:link {
+	text-decoration: none;
+	font-family: "Times";
+	-webkit-font-smoothing: antialiased;
+	font-size: 18px;
+	border-bottom: 1px solid black;
+	letter-spacing: 0.5px;
+}
+
+p a:hover{
+	color: #7f7f7f;
+	border-bottom: 1px solid #7f7f7f;
+}
+
+h3 a:link{
+	color: #bbb;
+}
+
+h3 a:visited{
+	color: #bbb;
+}
+
+h3 a:hover{
+	color: #7f7f7f;
 }

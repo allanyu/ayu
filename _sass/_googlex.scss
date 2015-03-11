@@ -3,10 +3,10 @@
 }
 
 .introLeft.googlex{
-  width: 500px;
+  width: 320px;
   position: relative;
   left: 19%;
-  z-index: -10;
+  z-index: 20;
 }
 
 h2.googlex{
@@ -27,7 +27,7 @@ h3.googlex{
   position: relative;
   left: 50%;
   top: -110px;
-  z-index: -20;
+  z-index: 10;
 }
 
  p.googlex{
@@ -58,6 +58,11 @@ img#googlelogo{
   bottom: 430px;
   left: 74%;
   position: absolute;
-  z-index: -40;
+  z-index: -1;
   max-width: 100%;
 }
+
+// .introLeft.googlex h1:hover{
+//   letter-spacing: 6px;
+//   color: #000;
+// }

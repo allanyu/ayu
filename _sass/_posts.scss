@@ -13,12 +13,17 @@
 }
 
 .post p{
-  line-height: 34px;
+  line-height: 30px;
   letter-spacing: 0.3px;
   display: block;
+  padding-bottom: 30px;
 }
 
 .post img{
   display: block;
   margin: 0px auto;
+}
+
+.post p strong{
+  font-font-weight: bold;
 }
