@@ -66,7 +66,6 @@ header {
 }
 
 
-
 // Misc
 .globalImgWrapper{
   max-width: 100%;
@@ -128,6 +127,7 @@ em {
 	font-style: italic;
 }
 
+// Site link states
 
 h1:hover{
   letter-spacing: 5px;
@@ -160,14 +160,13 @@ h3 a:hover{
 	color: #7f7f7f;
 }
 
-
-
-//Navigation Link Hovers
-
-nav #center li.index a:hover, nav #center li.writing a:hover, nav #center li.tumblr a:hover{
-	border: 2px solid rgba(255, 255, 255, 1);
-}
-
+//Navigation link states
 nav #center li.index a.current, nav #center li.writing a.current{
 	border: 2px solid rgba(255, 255, 255, 1);
 }
+
+//Disabled Hover state
+// nav #center li.index a:hover, nav #center li.writing a:hover, nav #center li.tumblr a:hover{
+// 	// border: 2px solid rgba(255, 255, 255, 1);
+//
+// }
