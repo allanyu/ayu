@@ -1,0 +1,52 @@
+
+// Screen Resize
+@media screen and (min-width: 375px) {
+	.mobile{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+    .mobile{
+      color: #000;
+      display:block;
+      position:fixed;
+      width: 93%;
+      height: 560px;
+      top: 50%;
+      left: 50%;
+      background: #fff;
+      text-align:center;
+      opacity: 0.95;
+      transform: translate(-50%, -50%);
+
+      -webkit-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      -moz-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    #scribble{
+      max-width: 200%;
+    }
+
+p.mobiletext{
+      font-family: "Times";
+      -webkit-font-smoothing: antialiased;
+      font-size: 32px;
+      letter-spacing: 2.2px;
+      padding: 50px;
+      line-height: 37px;
+      margin-top: 30px;
+      }
+
+#emailbutton{
+  width: 240px;
+  height: 60px;
+  background: red;
+  display: block;
+  margin: 0 auto;
+}
+
+
+}

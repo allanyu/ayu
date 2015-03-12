@@ -12,13 +12,11 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
   <script>
-  $(function(){
-    $('a').each(function() {
-      if ($(this).prop('href') == window.location.href) {
-        $(this).addClass('current');
-      }
-    });
-  });
+  $(document).ready (function(){
+    $("a.navlink").click(function(){
+      $(this).addClass( "myClass" );
+    })
+  })
   </script>
 
 </head>
