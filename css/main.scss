@@ -77,11 +77,16 @@ header {
 
 .mobileoverlay{
 	position:fixed;
-	background: red;
+	background: #fff;
 	width: 90%;
-	height: 200px;
+	height: 500px;
 	top: 0; left: 0; bottom: 0; right: 0;
 	margin: auto;
+
+
+	-webkit-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .mobileoverlay p {
@@ -89,31 +94,76 @@ header {
 	  -webkit-font-smoothing: antialiased;
 	  font-size: 32px;
 	  letter-spacing: 2.2px;
-	  padding: 50px;
+	  padding: 45px;
 	  line-height: 37px;
-	  margin-top: 30px;
+		text-align: center;
+		max-width: 240px;
+		margin: 0 auto;
 	  }
 
-// .mobileoverlay #emailbutton {
-// 	  width: 240px;
-// 	  height: 60px;
-// 	  background: red;
-// 	  display: block;
-// 	  margin: 0 auto;
-// 	}
+#buttonwrapper{
+	display:block;
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	height: 130px;
+}
+
+
+a#emailtext:link{
+	color: white;
+	  width: 240px;
+		background: #000;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		z-index: 40;
+		text-align: center;
+		padding: 20px 0 24px;
+
+			font-family: "Helvetica Neue";
+			-webkit-font-smoothing: antialiased;
+			font-size: 16px;
+			letter-spacing: 1px;
+}
+
+#emailbuttonbg {
+		width: 240px;
+		height: 50px;
+		background: #00ff6c;
+		display: block;
+		margin: 0 auto;
+		padding-top: 10px;
+		position: relative;
+		z-index: 30;
+		top: -53px;
+		left: 7px;
+}
+
+#warningwrapper{
+	width: 240px;
+	display: block;
+	margin: -40px auto 0;
+}
+
+#arrowup{
+	text-align: center;
+}
+
+#warning{
+	text-align: center;
+	font-family: "Times";
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	letter-spacing: 1.2px;
+	line-height: 40px
+}
 
 
 
-// @media screen and (min-width: 801px) {
-// 	.project{
-// 		width: 80%;
-// 	}
-// }
+//////////// Site CSS Starts
 
-
-
-
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 416px) {
 #mobile {
 	display:none;
 }
