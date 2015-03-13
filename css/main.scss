@@ -38,8 +38,7 @@ a:active {
 	"posters",
 	"footer",
 	"posts",
-	"writing",
-	"mobile"
+	"writing"
 ;
 
 // Global CSS
@@ -162,9 +161,9 @@ h3 a:hover{
 }
 
 //Navigation link states
-nav #center li.index a.current, nav #center li.writing a.current{
-	border: 2px solid rgba(255, 255, 255, 1);
-}
+// nav #center li.index a.current, nav #center li.writing a.current{
+// 	border: 2px solid rgba(255, 255, 255, 1);
+// }
 
 //Disabled Hover state
 // nav #center li.index a:hover, nav #center li.writing a:hover, nav #center li.tumblr a:hover{
@@ -175,4 +174,7 @@ nav #center li.index a.current, nav #center li.writing a.current{
 //
 //
 //
-//
+
+@import
+"mobile"
+;

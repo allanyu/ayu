@@ -2,9 +2,14 @@
 layout: default
 title: "Allan Yu"
 ---
-<div class ="activeIndex">
+
+{% include mobileIndex.html %}
+
+<div class="indexWrapper">
+
+  {% include header.html %}
   {% include intro.html %}
-  <!-- {% include googlex.html %}
+  {% include googlex.html %}
   {% include nypd.html %}
   {% include tmag.html %}
   {% include svpply.html %}
@@ -12,7 +17,7 @@ title: "Allan Yu"
   {% include want.html %}
   {% include eo.html %}
   {% include howe.html %}
-  {% include posters.html %} -->
+  {% include posters.html %}
+  {% include footer.html %}
 
-  {% include mobile.html %}
 </div>
