@@ -134,7 +134,8 @@
 //
 //
 //
-// WRITING
+// Writing Page
+
 #left{
 	display: none;
 }
@@ -143,16 +144,69 @@
 	display: none;
 }
 
+
+img#pencil1 {
+  position: absolute;
+  top: 100px;
+  left: 98px;
+  z-index: -2;
+  width: 58%;
+}
+	img#pencil2 {
+  position: absolute;
+  top: 130px;
+  left: -100px;
+  z-index: -3;
+  width: 168%;
+}
+
 .writing h4{
-  text-align: center;
-  font-family: "Helvetica";
-  font-size: 68px;
+	text-align: center;
+  font-size: 64px;
   padding: 110px 0px 90px;
   -webkit-font-smoothing: antialiased;
 }
 
+.writing ul{
+line-height: 48px;
+  letter-spacing: 0.6px;
+  display: block;
+  color: red;
+  font-family: "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  text-align: center;
+}
 
 
+
+// Single Post
+
+.post{
+	width: 320px;
+}
+
+.post img {
+  width: 300px;
+}
+
+.post h4{
+	text-align: center;
+	font-size: 64px;
+	padding: 110px 0px 90px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.post p{
+	line-height: 24px;
+	  letter-spacing: 0.6px;
+	  display: block;
+	  font-family: "Helvetica Neue";
+	  -webkit-font-smoothing: antialiased;
+	  font-size: 16px;
+	  text-align: left;
+
+}
 
 
 
