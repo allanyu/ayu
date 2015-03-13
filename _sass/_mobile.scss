@@ -25,6 +25,8 @@
 			width: 100%;
 			display: block;
 			margin: 60px auto 0;
+			position: relative;
+			z-index: 300;
 		}
 
 		p.mobiletext{
@@ -32,7 +34,7 @@
 		  -webkit-font-smoothing: antialiased;
 		  font-size: 32px;
 		  letter-spacing: 2.0px;
-		  padding: 137px 50px 66px;
+		  padding: 107px 50px 66px;
 		  line-height: 42px;
 		  text-align: center;
 		}
@@ -45,14 +47,19 @@
 
 			text-align: center;
 
-			// position: absolute;
-			// z-index: 100;
-
 			font-family: "Helvetica Neue";
 			-webkit-font-smoothing: antialiased;
 			font-size: 16px;
 			letter-spacing: 1px;
+			position: relative;
+			z-index: 301;
+			width: 200px
 		}
+
+		a.email:visited{
+		  color: #000;
+		}
+
 
 		#rebutton{
 			position: relative;
@@ -60,27 +67,31 @@
 			  left: -1px;
 				display: block;
 				width: 375px;
+				z-index: 101;
 		}
 
 	#scratch1{
 		position: relative;
-	  top: -600px;
+	  top: -590px;
 	  left: -8px;
 	  width: 382px;
+		z-index: 101;
 	}
 
 	#scratch2{
 		position: relative;
-	  top: -1247px;
-	  left: 290px;
+	  top: -1201px;
+	  left: 270px;
 	  width: 156px;
+	  z-index: 102;
 	}
 
 	#scratch3{
 		position: relative;
-	  top: -720px;
+	  top: -710px;
 	  left: 70px;
 	  width: 130px;
+		z-index: 103;
 	}
 
 
@@ -108,15 +119,6 @@
 		padding-bottom: 50px;
 		text-align: center;
 	}
-	//
-
-// #scratch1{
-// 	position: absolute;
-//   top: 70px;
-//   left: -10px;
-//   max-width: 100%;
-// }
-
 
 
 
