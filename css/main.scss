@@ -21,7 +21,6 @@ a:active {
 	color: black;
 }
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"reset",
@@ -41,12 +40,132 @@ a:active {
 	"writing"
 ;
 
+
 // Global CSS
-body{
+html, body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	border:0;
+	cursor:default;
 }
 
 header {
 	display: block;
+}
+
+.wrapper {
+	display:none;
+}
+
+// Mobile default
+#mobile {
+  width: 100%;
+}
+
+#mobilebg {
+	width:100%;
+	position:absolute;
+	top:0;
+	z-index:-10;
+}
+
+#mobilebg img {
+	width:100%;
+}
+
+.mobileoverlay{
+	position:fixed;
+	background: #fff;
+	width: 90%;
+	height: 500px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin: auto;
+
+
+	-webkit-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 16px 38px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.mobileoverlay p {
+	  font-family: "Times";
+	  -webkit-font-smoothing: antialiased;
+	  font-size: 32px;
+	  letter-spacing: 2.2px;
+	  padding: 45px;
+	  line-height: 37px;
+		text-align: center;
+		max-width: 240px;
+		margin: 0 auto;
+	  }
+
+#buttonwrapper{
+	display:block;
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	height: 130px;
+}
+
+
+a#emailtext:link{
+	color: white;
+	  width: 240px;
+		background: #000;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		z-index: 40;
+		text-align: center;
+		padding: 20px 0 24px;
+
+			font-family: "Helvetica Neue";
+			-webkit-font-smoothing: antialiased;
+			font-size: 16px;
+			letter-spacing: 1px;
+}
+
+#emailbuttonbg {
+		width: 240px;
+		height: 50px;
+		background: #00ff6c;
+		display: block;
+		margin: 0 auto;
+		padding-top: 10px;
+		position: relative;
+		z-index: 30;
+		top: -53px;
+		left: 7px;
+}
+
+#warningwrapper{
+	width: 240px;
+	display: block;
+	margin: -40px auto 0;
+}
+
+#arrowup{
+	text-align: center;
+}
+
+#warning{
+	text-align: center;
+	font-family: "Times";
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	letter-spacing: 1.2px;
+	line-height: 40px
+}
+
+
+
+//////////// Site CSS Starts
+
+@media screen and (min-width: 416px) {
+#mobile {
+	display:none;
 }
 
 .wrapper {
@@ -165,10 +284,19 @@ h3 a:hover{
 // 	border: 2px solid rgba(255, 255, 255, 1);
 // }
 
+
+
+} // End of @media
+
+
+
+
+
 //Disabled Hover state
 // nav #center li.index a:hover, nav #center li.writing a:hover, nav #center li.tumblr a:hover{
 // 	// border: 2px solid rgba(255, 255, 255, 1);
 //
+<<<<<<< HEAD
 // }
 
 //
@@ -178,3 +306,10 @@ h3 a:hover{
 @import
 "mobile"
 ;
+=======
+//
+//
+//
+//
+//
+>>>>>>> 74c4fe646950d5883e62419b4e4652f636a3f659
