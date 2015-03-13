@@ -10,7 +10,11 @@
 
 		.mobile{
 			display: block;
-			position: relative;
+			position: fixed;
+			overflow-y: hidden;
+			overflow-x: hidden;
+
+			width: 100%;
 		}
 
 		.indexWrapper{
@@ -19,11 +23,9 @@
 
 		#emailWrapper{
 			width: 100%;
-			position: relative;
 			display: block;
 			margin: 60px auto 0;
 		}
-
 
 		p.mobiletext{
 			font-family: "Times";
@@ -52,43 +54,72 @@
 			letter-spacing: 1px;
 		}
 
-#rebutton{
-	position: relative;
-	  top: -50px;
-	  left: -1px;
-		max-width: 100%;
-}
+		#rebutton{
+			position: relative;
+			  top: -50px;
+			  left: -1px;
+				display: block;
+				width: 375px;
+		}
 
-#scratch1{
-	position: absolute;
-  top: 70px;
-  left: -10px;
-  max-width: 100%;
-}
+	#scratch1{
+		position: relative;
+	  top: -600px;
+	  left: -8px;
+	  width: 382px;
+	}
 
-// #nomobile{
-// 	position: relative;
-//   top: -963px;
-//   left: 39%;
-//   max-width: 80%;
-// }
-//
-#scratch2{
-	position: absolute;
-  top: 135px;
-  left: 35px;
-  max-width: 50%;
-}
-//
-// #scratch3{
-// 	position: relative;
-//   top: -730px;
-//   left: 0;
+	#scratch2{
+		position: relative;
+	  top: -1247px;
+	  left: 290px;
+	  width: 156px;
+	}
+
+	#scratch3{
+		position: relative;
+	  top: -720px;
+	  left: 70px;
+	  width: 130px;
+	}
+
+
+
+	#nativeWrapper{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#arrow{
+		position: relative;
+	  top: -152px;
+	  left: 89px;
+	  display: block;
+	  width: 25px;
+	}
+
+	#nativeemail{
+		font-family: "Times";
+		-webkit-font-smoothing: antialiased;
+		font-size: 16px;
+		letter-spacing: 1.0px;
+		line-height: 30px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	//
+
+// #scratch1{
+// 	position: absolute;
+//   top: 70px;
+//   left: -10px;
 //   max-width: 100%;
 // }
 
 
-//
+
+
 //
 //
 //
