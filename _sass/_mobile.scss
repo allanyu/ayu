@@ -78,6 +78,17 @@
 			color: #fff;
 		}
 
+		a.email:active{
+			top: 3px;
+			left: 3px;
+			position: relative;
+			color: #fff;
+		}
+
+		a.email:hover{
+			color: #fff;
+		}
+
 		#emailbuttonbg{
 			position: relative;
 		  z-index: 95;
