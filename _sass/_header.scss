@@ -33,8 +33,7 @@ nav #center ul li {
 	display: inline;
 }
 
-// #center li.index a, #center li.writing a, #center li.tumblr a{
-	a.navlink{
+a.navlink:link{
 	margin: 0px 10px;
 	float: left;
 	width: 42px;
@@ -46,7 +45,16 @@ nav #center ul li {
 	line-height: 45px;
 	text-align: center;
 }
+a.navlink:visited{
+	color: #fff;
+}
 
-a.navlink.active{
+a.navlink.current{
 	border: 2px solid rgba(255, 255, 255, 1);
+}
+
+a.navlink:active{
+	opacity: 0.8;
+  font-size: 23px;
+  transition: all 150ms ease-in-out;
 }
