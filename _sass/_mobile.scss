@@ -18,7 +18,7 @@
 		}
 
 		#emailWrapper{
-			width: 300px;
+			width: 100%;
 			position: relative;
 			display: block;
 			margin: 60px auto 0;
@@ -54,14 +54,38 @@
 
 #rebutton{
 	position: relative;
-	  top: -42px;
-	  left: -23px;
+	  top: -50px;
+	  left: -1px;
 		max-width: 100%;
 }
 
+#scratch1{
+	position: absolute;
+  top: 70px;
+  left: -10px;
+  max-width: 100%;
+}
 
-
-
+// #nomobile{
+// 	position: relative;
+//   top: -963px;
+//   left: 39%;
+//   max-width: 80%;
+// }
+//
+#scratch2{
+	position: absolute;
+  top: 135px;
+  left: 35px;
+  max-width: 50%;
+}
+//
+// #scratch3{
+// 	position: relative;
+//   top: -730px;
+//   left: 0;
+//   max-width: 100%;
+// }
 
 
 //
