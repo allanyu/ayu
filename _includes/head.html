@@ -37,7 +37,7 @@
   	glitch_line_wait_min = 100,
   	glitch_line_wait_max = 3000,
   	glitch_line_height_min = 5,
-  	glitch_line_height_max = 80;
+  	glitch_line_height_max = 200;
 
   // Glitch Move Vars
   var glitch_move_color_1 = '#08FFF2',
@@ -193,7 +193,7 @@
   		// Move the divs back after a random time duration
   		this.timeout = setTimeout(function() {
   			// Make sure we set the text back to the original color!
-  			$('.glitch-div-1, .glitch-div-2').css({
+  			$('.glitch-div-1, .glitch-div-2, glitch-div-3').css({
   				'left': '0px',
   				'top': '0px',
   				'color': glitch_move_original_color,
