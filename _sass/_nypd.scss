@@ -60,7 +60,7 @@ h3.nypd{
 }
 
 .num{
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   font-size: 320px;
   -webkit-font-smoothing: antialiased;
@@ -69,7 +69,7 @@ h3.nypd{
 
 .name{
   display: inline-block;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   font-size: 60px;
   color: #0000ff;
@@ -77,7 +77,7 @@ h3.nypd{
 
 .counting{
   display: inline-block;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 22px;
   color: #0000ff;
   letter-spacing: 2.5px;
@@ -136,7 +136,7 @@ img#memberScrn{
 }
 
 .postingTitle{
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 32px;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -155,7 +155,7 @@ img#memberScrn{
 }
 
 .companies ul{
-  font-family: "Times";
+  font-family: 'Times', serif;
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: 36px;

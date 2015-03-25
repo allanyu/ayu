@@ -30,7 +30,7 @@
 		}
 
 		p.mobiletext{
-			font-family: "Times";
+			font-family: 'Times', serif;
 		  -webkit-font-smoothing: antialiased;
 		  font-size: 32px;
 		  letter-spacing: 2.0px;
@@ -42,13 +42,10 @@
 
 		a.email:link{
 		  color: #000;
-
 			display: block;
 		 	margin: 0 auto;
-
 			text-align: center;
-
-			font-family: "Helvetica Neue";
+			font-family: "Helvetica Neue", Helvetica, sans-serif;
 			-webkit-font-smoothing: antialiased;
 			font-size: 16px;
 			letter-spacing: 1px;
@@ -112,7 +109,7 @@
 	}
 
 	#nativeemail{
-		font-family: "Times";
+		font-family: 'Times', serif;
 		-webkit-font-smoothing: antialiased;
 		font-size: 16px;
 		letter-spacing: 1.0px;
@@ -172,7 +169,7 @@ line-height: 48px;
   letter-spacing: 0.6px;
   display: block;
   color: red;
-  font-family: "Helvetica Neue";
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   text-align: center;
@@ -201,7 +198,7 @@ line-height: 48px;
 	line-height: 24px;
 	  letter-spacing: 0.6px;
 	  display: block;
-	  font-family: "Helvetica Neue";
+		font-family: "Helvetica Neue", Helvetica, sans-serif;
 	  -webkit-font-smoothing: antialiased;
 	  font-size: 16px;
 	  text-align: left;
