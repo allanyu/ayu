@@ -6,7 +6,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 504px) {
 
 		.mobile{
 			display: block;
@@ -59,14 +59,15 @@
 		}
 
 
-		#rebutton{
-			position: relative;
-			  top: -50px;
-			  left: -1px;
-				display: block;
-				width: 375px;
-				z-index: 101;
-		}
+	#rebutton{
+		position: relative;
+	  top: -50px;
+	  left: -1px;
+		display: block;
+		width: 375px;
+		z-index: 101;
+		margin: 0 auto;
+	}
 
 	#scratch1{
 		position: relative;
@@ -92,8 +93,6 @@
 		z-index: 103;
 	}
 
-
-
 	#nativeWrapper{
 		width: 100%;
 		display: block;
@@ -103,7 +102,7 @@
 	#arrow{
 		position: relative;
 	  top: -152px;
-	  left: 89px;
+	  left: 24%;
 	  display: block;
 	  width: 25px;
 	}
