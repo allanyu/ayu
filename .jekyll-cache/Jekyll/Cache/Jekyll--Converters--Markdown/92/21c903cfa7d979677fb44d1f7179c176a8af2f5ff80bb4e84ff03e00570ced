@@ -1,0 +1,87 @@
+I"�<p><em>TL;DR - Reverse the feed - Load refreshed content differently.</em></p>
+
+<p><strong>Estimated read time: 5 mins.
+Estimated time to understand this post: 10 mins.</strong></p>
+
+<p>Let me start off by saying, I use the words “Top, down, bottom, up, refresh, update” a lot here. It can get a bit confusing but I guess read slowly.</p>
+
+<p>Recently, for one reason or another, my eyes have been hypersensitive to movement and light. I’ll assume it’s because I’ve been using f.lux for casual web-browsing and not the acute slant of my asian eyes. Basically, I’ve been noticing the way we browse our feed and how it doesn’t really make sense…Let me make my case with the Tumblr app.</p>
+
+<p>We read text or view images from top to bottom, so consuming our feed is natural in the current state of things (the feed today is ordered in reverse chronology). But once we’ve exhausted the content of the feed, to refresh, we must (on the tumblr app and probably most apps) double tap the home button or scroll up to the top. Once there, we pull to refresh. Then we’re auto-scrolled to the absolute top of the screen where we see the most recent post. To continue browsing the newly refreshed contents, we go down again (like what we did in the beginning).</p>
+
+<p><strong>This set of actions can be broken down like this:</strong></p>
+
+<p><img src="/images/postsimg/flipit/1_flipicon.png" alt="flipicon" /></p>
+
+<p><strong>1.</strong> Go down to browse <br />
+<strong>2.</strong> Go up to refresh <br />
+<strong>3.</strong> Refresh <br />
+<strong>4.</strong> Update takes you to the absolute top <br /></p>
+
+<p><strong>Repeat 1-4</strong></p>
+
+<p>Visually this is what your feed is doing. <em>(Don’t worry it’s a little confusing to follow this GIF cause it’s slower than how we actually use it, but this is for real what we’re doing)</em></p>
+
+<p><img src="/images/postsimg/flipit/2_current.gif" alt="current" /></p>
+
+<p>The problem here is that we often don’t notice, or we forgive too easily if we do notice, how many different eye and screen movement it takes to browse a feed. But this browsing habit can be simplified. A solution would be to reduce the movement to only one direction.</p>
+
+<p><img src="/images/postsimg/flipit/3_onedir.png" alt="current" /></p>
+
+<p>Which leads me to my first solution.</p>
+
+<p><strong>Solution A:</strong> <br />
+Solution A’s set of browsing actions is this:</p>
+
+<p><img src="/images/postsimg/flipit/4_solutiona.png" alt="" /></p>
+
+<p><strong>1.</strong> Go down to browse <br />
+<strong>2.</strong> Go up to browse/refresh <br />
+<strong>3.</strong> Refresh <br />
+<strong>4.</strong> Load content but don’t push the user to the absolute top (Instead, crop the screen with newer content above the viewport) <br /></p>
+
+<p><strong>Repeat 2-4</strong> <em>(You don’t need step one now because you don’t need to scroll down to browse content already seen)</em></p>
+
+<p>In action, Solution A would look something like this:</p>
+
+<p><img src="/images/postsimg/flipit/5_solutiona_action.gif" alt="sola" /></p>
+
+<p>By not allowing the app to auto-scroll you to the absolute top after a refresh it forces the user to manually scroll up themselves. By manually scrolling up to view unseen content, it encourages the user to browse the feed in one direction, in this case, up.</p>
+
+<p>But <strong>Solution A</strong> isn’t exactly correct just yet. It has a huge usability problem. To my earlier point of how we read content <em>(top - down)</em>. When we scroll up to see new content, each post is coming into view from the top <em>(which means we’re seeing the bottom of each post first)</em>.</p>
+
+<p>The flaw here is that we have to mentally <strong>log</strong> each post from the bottom-up • then • <strong>read</strong> • each individual post top-down. This would get old and annoying real quick.</p>
+
+<p>Also we can remove step one of Solution A which is the first downward direction of browsing the initial content.</p>
+
+<p>By the way, Solution A is what the Twitter App does.</p>
+
+<p>But the key to a better solution can be found in this <a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=UODX_pYpVxk">Missy Elliot Song</a></p>
+
+<p><strong>Solution B:</strong> <br />
+All we have to do is flip it and reverse it.</p>
+
+<p>The actual way to solve this is to order the feed in chronological order (newest at the bottom and oldest at the top). By ordering the feed this way, the user can scroll down to browse • and • scroll down further to refresh <strong>and</strong> browse again. <strong>In one direction.</strong></p>
+
+<p>The breakdown of Solution B is this:</p>
+
+<p><img src="/images/postsimg/flipit/6_flipicon.png" alt="flipiconb" /></p>
+
+<p><strong>1</strong> Go down to browse / refresh <br />
+<strong>2</strong> Refresh <br />
+<strong>Repeat 1-2</strong></p>
+
+<p>And this is what it looks like when you apply it:</p>
+
+<p><img src="/images/postsimg/flipit/7_solutionb.gif" alt="solb" /></p>
+
+<p>IMHO: I think this makes the feed lighter, and I’m pretty sure this can be applied to most feeds. <em>(Sup Twitter)</em></p>
+
+<p>I know this sounds a little confusing but it’s really not.</p>
+
+<p>The point of this is to simplify eye and screen movement when we’re browsing the feed. It’s a minute detail that can be arguably trivial. But, in my defense as a designer, these are the details we live for. And besides bro, we’ve had bigger discussions about more trivial design shit than just basic eye and screen movement.</p>
+
+<p>Also… this idea can only work on mobile since the device is more forgiving of content orientation. Reversing the feed will probably fail on a tablet and definitely fail on the desktop due to it’s more traditional top-down orientation.</p>
+
+<p>Also tumblr app, no hate over here, just sayin’</p>
+:ET

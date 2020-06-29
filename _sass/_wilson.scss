@@ -1,0 +1,141 @@
+.projectIntro.wilson{
+  padding-top: 20px;
+}
+
+.introLeft.wilson{
+  width: 310px;
+  position: relative;
+  left: 23%;
+  z-index: 20;
+}
+
+h2.wilson{
+  position: absolute;
+  color: #FF0095;
+  top: 39px;
+  left: 24px;
+}
+
+h3.wilson{
+  position: absolute;
+  top: -16px;
+  left: 165px;
+}
+
+.introRight.wilson{
+  width: 500px;
+  position: relative;
+  left: 45%;
+  top: -110px;
+  z-index: 10;
+}
+
+ p.wilson{
+  width: 387px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.wilson{
+  margin: 20px auto 150px;
+  max-width: 100%;
+  position: relative;
+}
+
+img#wilson{
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+img#wilsonlogo{
+  position: absolute;
+  max-width: 100%;
+  top: -320px;
+  right: -1%;
+  z-index: -1;
+}
+
+img#matrix{
+  max-width: 100%;
+  margin: 0px auto;
+  padding-top: 110px;
+  display: block;
+}
+
+img#w_list{
+  position: absolute;
+  max-width: 100%;
+  top:750px;
+  right:-5px;
+  border-radius: 20px;
+  box-shadow: -10px 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+img#w_newapp{
+  position: absolute;
+  max-width: 100%;
+  top:1030px;
+  left:-5px;
+  border-radius: 20px;
+  box-shadow: 10px 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+img#w_desktop{
+  max-width: 100%;
+  margin: 0px auto;
+  display: block;
+  padding-top: 180px;
+}
+
+img#wilsonlogo2{
+  position: absolute;
+  max-width: 100%;
+  top: 1970px;
+  left: -3%;
+  z-index: -1;
+}
+
+img#w_roadmap{
+  position: relative;
+  max-width: 100%;
+  top:160px;
+  left: 4%;
+}
+
+img#tc_review{
+  position: absolute;
+  max-width: 100%;
+  top: 2330px;
+  right: 8%;
+  float:right;
+}
+
+img#nieman_review{
+  position: absolute;
+  max-width: 100%;
+  top: 2700px;
+  right: 6%;
+  float: right;
+}
+
+h2#partnerTitle{
+  margin:0px auto;
+  color: #999999;
+  text-align: center;
+  padding-top: 120px;
+}
+
+img#w_partners{
+  max-width: 100%;
+  margin: 0px auto;
+  display: block;
+  padding-top: 10px;
+}
+
+video{
+  max-width: 100%;
+  margin: 0px auto;
+  display: block;
+  padding-top: 270px;
+}

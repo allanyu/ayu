@@ -1,0 +1,123 @@
+.projectIntro.compound{
+  padding-top: 20px;
+}
+
+.introLeft.compound{
+  width: 320px;
+  position: relative;
+  left: 19%;
+  top:10px;
+  z-index: 20;
+}
+
+h2.compound{
+  position: absolute;
+  color: #906C51;
+  top: 50px;
+  left: 90px;
+}
+
+h3.compound{
+  position: absolute;
+  top: -16px;
+  left: 204px;
+  width: 120px;
+}
+
+.introRight.compound{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: -110px;
+  z-index: 10;
+}
+
+ p.compound{
+  width: 387px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.compound{
+  position: relative;
+  margin: -10px auto 150px;
+  max-width: 100%;
+}
+
+img#hero{
+  margin: 40px auto;
+  display: block;
+}
+
+img#review_compound{
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+  display: block;
+}
+
+img#altlogo1{
+  position: absolute;
+  max-width: 100%;
+  top:0px;
+  left: -2%;
+}
+
+img#altlogo2{
+  position: absolute;
+  max-width: 100%;
+  top: 750px;
+  right: -5%;
+}
+
+.float_img_container {
+  position: relative;
+  top: 130px;
+  height: 1106px;
+  overflow: hidden;
+  background-image: url('/images/compound/floats.png');
+  background-position: center center;
+}
+
+img#clogo{
+  position: relative;
+  top: 60px;
+  right: 4%;
+  opacity: 0.1;
+}
+
+img#comp_grid{
+  max-width: 100%;
+  align-content: center;
+  padding: 7px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+img#gridscreens{
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 180px;
+}
+
+img#comp_desktop{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 150px;
+}
+
+img#angle{
+  position: absolute;
+  max-width: 100%;
+  top: 3270px;
+  left: 88%;
+}
+
+img#circular{
+  position: absolute;
+  max-width: 100%;
+  top: 3700px;
+  right: 92%;
+}

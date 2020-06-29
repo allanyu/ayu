@@ -1,0 +1,157 @@
+.projectIntro.ab{
+  padding-top: 20px;
+}
+
+.introLeft.ab{
+  width: 320px;
+  position: relative;
+  left: 19%;
+  top: 10px;
+  z-index: 20;
+}
+
+h2.ab{
+  position: absolute;
+  color: #353C79;
+  top: 100px;
+  left: 160px;
+}
+
+h3.ab{
+  position: absolute;
+  top: -26px;
+  left: 227px;
+  width: 120px;
+}
+
+.introRight.ab{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  top: -110px;
+  z-index: 10;
+}
+
+ p.ab{
+  width: 395px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.ab{
+  margin: 20px auto 150px;
+  max-width: 100%;
+  position: relative;
+}
+
+img#catalog1{
+  position: relative;
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+  z-index: 100;
+  right: 190px;
+  top: -50px;
+  box-shadow: 0px 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+img#ablogo{
+  max-width: 100%;
+  position: absolute;
+  top:20px;
+  left: -10px;
+}
+
+.desktop_container{
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+img#desktop1{
+  position: relative;
+  top: -200px;
+  max-width: 100%;
+  display: block;
+  left: 50%;
+}
+
+img#desktop2{
+  position: relative;
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+  top: -420px;
+}
+
+img#desktop3{
+  position: absolute;
+  max-width: 100%;
+  display: block;
+  right: 49%;
+  top: 16%;
+}
+
+img#arcadelogo{
+  max-width: 100%;
+  position: absolute;
+  display: block;
+  top: 1110px;
+  left: 72%;
+}
+
+img#catalog2{
+  position: relative;
+  max-width: 100%;
+  display: block;
+  margin: 0px auto;
+  z-index: 100;
+  left: 19%;
+  top: -280px;
+  box-shadow: 0px 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+img#phone{
+  max-width: 100%;
+  display: block;
+  margin:-160px auto;
+  top: -130px;
+}
+
+.webcontainer{
+  position: relative;
+  max-width: 1440px;
+  display: block;
+  padding-top: 340px;
+  margin: 0px auto;
+}
+
+img#web1{
+  position: relative;
+  left: 1%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+img#web2{
+  position: absolute;
+  right: 1%;
+  top: 400px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+p.loggedout{
+  position: absolute;
+  width: 96px;
+  border: 1px solid #000;
+  padding: 24px;
+  top: 240px;
+  left: 1%;
+}
+
+p.loggedin{
+  position: absolute;
+  width: 82px;
+  border: 1px solid #000;
+  padding: 24px;
+  top: 310px;
+  right: 1%;
+}

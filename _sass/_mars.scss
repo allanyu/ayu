@@ -1,0 +1,51 @@
+.projectIntro.mars{
+  padding-top: 20px;
+}
+
+.introLeft.mars{
+  width: 500px;
+  position: relative;
+  left: 19%;
+  top: 70px;
+  z-index: 30;
+}
+
+h2.mars{
+  position: absolute;
+  color: #BAFF00;
+  top: 43px;
+  left: 37px;
+}
+
+h3.mars{
+  position: absolute;
+  top: -20px;
+  left: 266px;
+}
+
+.introRight.mars{
+  width: 500px;
+  position: relative;
+  left: 53%;
+  top: -55px;
+  z-index: 20;
+}
+
+ p.mars{
+  width: 354px;
+  border: 1px solid #000;
+  padding: 32px;
+}
+
+.projectBody.mars{
+  margin: 20px auto 200px;
+  max-width: 100%;
+  position: relative;
+}
+
+img#mars{
+  position: relative;
+  max-width: 100%;
+  display: block;
+  margin: 0px auto 120px;
+}
